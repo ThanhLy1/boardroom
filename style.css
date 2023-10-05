@@ -1,0 +1,22 @@
+body {
+  background: url("https://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
+  background-size: cover;     /* cover ensures the image covers the entire element */
+  background-position: center; /* this will center the image */
+  background-repeat: no-repeat; /* prevents the image from repeating if it's too small for the container */
+  --bs-light-rgb: 146, 146, 145;
+}
+
+.navbar {
+  --bs-navbar-brand-color: grey;
+  color: white;
+}
+
+li.nav-item.nav-link {
+  color: white;
+}
+
+
+#navbarNav {
+  background-color: grey;
+  color: white;
+}
